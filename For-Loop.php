@@ -1,7 +1,5 @@
 <?php
-
-$box = 5;
-for($wrap = 0; $wrap >= 5 $wrap++){
+for($x = 1; $x <= 5; $x++){
     echo "Combination Of While And doWhile Loop";
 }
 ?>
