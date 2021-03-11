@@ -16,16 +16,21 @@
                     <option value="mul">x</option>
                     <option value="div">/</option>
                 </select>
-                <input type="button" name="sub" value="Go">
+                <input type="submit" name="submit" value="Go">
     </form>
     <h1>
     <?php
-    if(isset($_POST['sub'])){
-        $num1=$_POST['$num1'];
-        $num2=$_POST['$num2'];
-
-
-    }
+            if(isset($_POST['submit'])){
+                $num1 = $_POST['num1'];
+                $num2 = $_POST['num2'];
+                $operation = $_POST['operation'];
+                // echo $num1." ".$num2;
+                switch($operation){
+                    case "add": $sum = $num1 + $num2;
+                    echo  "The Addition of" .$sum;
+                    break;
+                }
+            }
     
     ?>
     </h1>
