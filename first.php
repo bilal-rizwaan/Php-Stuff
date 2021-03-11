@@ -13,6 +13,7 @@ echo $arr[0];
 echo $nu;
 var_dump($s)
 var_dump($i)
+// strlen($s)
 // var_dump($in)
 // var_dump($fl)
 // var_dump($arr)
