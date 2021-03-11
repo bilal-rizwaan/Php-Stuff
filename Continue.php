@@ -1,5 +1,9 @@
 <?php
 for($x=1;$x<=10;$x++){
-echo $x . "Continue Statement"."</br>";
+    if($x==5){
+        echo $x . "Ignore 5"."</br>";
+    }
+    echo $x . "Continue Statement"."</br>";
+
 }
 ?>
