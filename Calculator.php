@@ -7,7 +7,7 @@
     <title>Php Calcualtor</title>
 </head>
 <body>
-        <form method="POST">
+    <form method="POST">
                 <input type="text" name="num1">
                 <input type="text" name="num2">
                 <select name="operation" id="">
