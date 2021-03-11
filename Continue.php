@@ -1,7 +1,5 @@
 <?php
 for($x=1;$x<=10;$x++){
-echo $x "Continue Statement"
+echo $x . "Continue Statement"."</br>";
 }
-
-
 ?>
