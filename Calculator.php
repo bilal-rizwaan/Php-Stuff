@@ -27,7 +27,16 @@
                 // echo $num1." ".$num2;
                 switch($operation){
                     case "add": $sum = $num1 + $num2;
-                    echo  "The Addition of" .$sum;
+                    echo  "The Addition of" ." ".$sum;
+                    break;
+                    case "sub": $sub = $num1 - $num2;
+                    echo  "The Subtract of" ." ".$sub;
+                    break;
+                    case "mul": $mul = $num1 * $num2;
+                    echo  "The Multiply of" ." ".$mul;
+                    break;
+                    case "div": $div = $num1 / $num2;
+                    echo  "The Divide of" ." ".$div;
                     break;
                 }
             }
