@@ -7,19 +7,19 @@
     <title>Love Calculator In Php</title>
 </head>
 <body>
-        <form method="post">
-            <input type="text" name="love">
-            <input type="text" name="bird">
-            <input type="submit" name="find">
-        </form>
+    <form action="" method="post">
+        <input type="text" name="love">
+        <input type="text" name="bird">
+        <input type="submit" name="find">
+    </form>
 
-        <?php
-        if(isset($_POST['submit'])){
-            $love = $_POST['love'];
-            $bird = $_POST['bird'];
-            $ran = rand();
-            echo $love . + . $bird '=' $rand;
-        }
-        ?>
+    <?php
+    if(isset($_POST['find'])){
+        $love = $_POST['love'];
+        $bird = $_POST['bird'];
+        $ran = rand(1,100);
+        echo $love . '+' . $bird .'='. $ran;
+    }
+    ?>
 </body>
 </html>
