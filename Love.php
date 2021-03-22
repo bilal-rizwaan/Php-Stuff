@@ -18,7 +18,7 @@
         $love = $_POST['love'];
         $bird = $_POST['bird'];
         $ran = rand(1,100);
-        echo $love . '+' . $bird .'='. $ran;
+        echo $love . ' + ' . $bird .' = '. $ran.'%';
     }
     ?>
 </body>
