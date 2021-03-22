@@ -17,8 +17,8 @@
         if(isset($_POST['submit'])){
             $love = $_POST['love'];
             $bird = $_POST['bird'];
-            $ran=rand();
-        echo $love + $bird '=' $rand;
+            $ran = rand();
+            echo $love . + . $bird '=' $rand;
         }
         ?>
 </body>
